@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Category Type:</strong>
+  <%= @category.category_type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @category.description %>
+</p>
+
+<p>
+  <strong>Award:</strong>
+  <%= @category.award %>
+</p>
+
+<p>
+  <strong>Release date:</strong>
+  <%= @category.release_date %>
+</p>
+
+<%= link_to 'Edit', edit_category_path(@category) %> |
+<%= link_to 'Back', categories_path %>
